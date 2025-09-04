@@ -17,21 +17,6 @@ Este servidor gestiona la comunicación en tiempo real y almacena los mensajes e
 
 ---
 
-## Estructura del proyecto
-
-realtime-app/
-│── src/
-│ ├── models/ # Modelos de MongoDB
-│ │ └── Message.js
-│ ├── socket/ # Lógica de WebSockets
-│ │ └── socketHandler.js
-│ ├── server.js # Punto de entrada
-│── .env.example # Variables de entorno de ejemplo
-│── package.json
-
-
----
-
 ## ⚙Instalación
 
 1. Clonar este repositorio:
